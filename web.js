@@ -9,4 +9,4 @@ app.get('/', function(request, response) {
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
-});[ubuntu@ip-172-31-36-63:~/bitstarter]$
+});
