@@ -1,10 +1,15 @@
-var express = require('express');
+#!/usr/bin/env node
+
+var fs = require("fs");
+
+var express = require("express");
 
 var buffer = Buffer(128);
 
-buffer = fs.readFileSync('Index.html');
+buffer = fs.readFileSync("./index.html");
 
-var app = express.createServer(express.logger());
+// var app = express.createServer(express.logger());
+var app = express();
 
 app.get('/', function(request, response) {
   response.send(buf.toString(buffer)) ;
