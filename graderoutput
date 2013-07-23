@@ -1,0 +1,20 @@
+./grader.js -c checks.json -f curl http://peaceful-earth-1680.herokuapp.com 
+{
+    ".about": true,
+    ".blank": true,
+    ".faq": true,
+    ".footer": true,
+    ".heading": true,
+    ".navigation": true,
+    ".order": true,
+    ".pitch": true,
+    ".section1": true,
+    ".section2": true,
+    ".social": true,
+    ".subheading": true,
+    ".thermometer": true,
+    ".video": true,
+    "h1": true,
+    "logo": false
+}
+
